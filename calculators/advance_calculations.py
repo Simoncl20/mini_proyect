@@ -24,10 +24,6 @@ class AdvancedCalculations:
         """Calculates the length of the hypotenuse in a right triangle using the Pythagorean theorem."""
         return self.calculator.square_root(self.calculator.add(self.calculator.power(a, 2), self.calculator.power(b, 2)))
 
-    def area_of_circle(self, radius):
-        """Calculates the area of a circle."""
-        return self.calculator.multiply(self.calculator.power(radius, 2), self.calculator.pi())
-
     def factorial(self, n):
         """Calculates the factorial of a non-negative integer using the Calculator's factorial method."""
         return self.calculator.factorial(n)
